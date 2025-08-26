@@ -50,7 +50,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
         <SheetContent side="left" className="w-64 p-0">
           <div className="flex h-full flex-col">
             <div className="flex h-16 items-center px-6 border-b">
-              <h1 className="text-xl font-bold text-foreground">CoopSave</h1>
+              <h1 className="text-xl font-bold text-foreground">SACCOS</h1>
             </div>
             <nav className="flex-1 space-y-1 px-3 py-4">
               {navigation.map((item) => (
@@ -77,7 +77,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
       <div className="hidden lg:fixed lg:inset-y-0 lg:flex lg:w-64 lg:flex-col">
         <div className="flex flex-col flex-grow bg-card border-r border-border">
           <div className="flex h-16 items-center px-6 border-b border-border">
-            <h1 className="text-xl font-bold text-foreground">CoopSave</h1>
+            <h1 className="text-xl font-bold text-foreground">SACCOS</h1>
           </div>
           <nav className="flex-1 space-y-1 px-3 py-4">
             {navigation.map((item) => (
